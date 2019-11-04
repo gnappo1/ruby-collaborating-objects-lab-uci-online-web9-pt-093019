@@ -8,6 +8,7 @@ class MP3Importer
   end
   
   def files
+    binding.pry
     #Dir["#{path}/*"]
     #Dir.glob("*spec/*fix*/*/*")
     #Dir.glob("#{path}/*")
